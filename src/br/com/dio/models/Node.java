@@ -2,13 +2,17 @@ package br.com.dio.models;
 
 public class Node<T> {
 
-    private T value = null;
-    private Node<T> refNode = null;
+    private T value;
+    private Node<T> refNode;
 
-    public Node() {}
+    public Node() {
+        value = null;
+        refNode = null;
+    }
 
     public Node(T value){
         this.value = value;
+        refNode = null;
     }
 
     public T getValue() {
