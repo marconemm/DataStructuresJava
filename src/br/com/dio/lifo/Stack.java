@@ -1,4 +1,6 @@
-package br.com.dio.models;
+package br.com.dio.lifo;
+
+import br.com.dio.models.Node;
 
 public class Stack<T> {
 

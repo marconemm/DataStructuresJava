@@ -1,7 +1,6 @@
-package br.com.dio;
+package br.com.dio.lifo;
 
 import br.com.dio.models.Node;
-import br.com.dio.models.Stack;
 
 public class Main {
     public static void main(String[] args) {
