@@ -33,11 +33,12 @@ public class Node<T> {
 
     @Override
     public String toString() {
-        String type = value.getClass().getName();
+        String type = value.getClass().getSimpleName();
 
-        return "Node{" +
-                "value=" + value +
-                ", type=" + type.substring(10, type.length()) +
-                '}';
+        if (type instanceof String){
+            return "\""+value+"\"";
+        }
+
+        return value.toString();
     }
 }

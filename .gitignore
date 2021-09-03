@@ -24,3 +24,6 @@ hs_err_pid*
 #My ignores:
 .idea/**
 *.iml
+.classpath
+.project
+/out/**
