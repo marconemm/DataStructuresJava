@@ -14,6 +14,10 @@ public class LinkedList<T> {
     private Node<T> getNode(int index){
         final int maxIndex = length - 1;
 
+        if (index < 0){
+            throw new IndexOutOfBoundsException("The min index to this list is: 0");
+        }
+
         if (index > maxIndex){
             throw new IndexOutOfBoundsException("The max index to this list is: " + maxIndex);
         }

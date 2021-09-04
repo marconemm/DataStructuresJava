@@ -24,11 +24,5 @@ public class Main {
         myLinkedList.remove(index);
         System.out.println("\nRemoving he value at index " + index + "...");
         System.out.println("My linked list: " + myLinkedList.toString());
-//
-//        System.out.println("The last node in this stack is: " + myLinkedList.top().toString());
-//
-//        while (!myLinkedList.isEmpty()){
-//            System.out.println("The first node to OUT was: " + myLinkedList.pop().toString());
-//        }
     }
 }
