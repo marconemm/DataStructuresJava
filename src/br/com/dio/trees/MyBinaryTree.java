@@ -6,7 +6,7 @@ public class MyBinaryTree<T extends Comparable<T>> {
     public enum orders {PRE_ORDER, IN_ORDER, AFT_ORDER}
 
     private final StringBuilder strResult = new StringBuilder("[");
-    private LeafNode root;
+    private LeafNode<T> root;
 
     public MyBinaryTree() {
         root = null;
