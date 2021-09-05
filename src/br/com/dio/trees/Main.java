@@ -28,27 +28,5 @@ public class Main {
         myTree.show(MyBinaryTree.orders.IN_ORDER);
         myTree.show(MyBinaryTree.orders.AFT_ORDER);
 
-        /*
-        MyBinaryTree<Integer> myTree2 = new MyBinaryTree<>();
-
-        LeafNode<Integer> toRemove2 = new LeafNode<>(311);
-
-        myTree2.insert(new LeafNode<>(1));
-        myTree2.insert(new LeafNode<>(10));
-        myTree2.insert(toRemove2);
-        myTree2.insert(new LeafNode<>(100));
-        myTree2.insert(new LeafNode<>(0));
-
-
-        myTree.show(MyBinaryTree.orders.PRE_ORDER);
-        myTree.show(MyBinaryTree.orders.IN_ORDER);
-        myTree.show(MyBinaryTree.orders.AFT_ORDER);
-
-        myTree.remove(toRemove);
-
-        myTree.show(MyBinaryTree.orders.PRE_ORDER);
-        myTree.show(MyBinaryTree.orders.IN_ORDER);
-        myTree.show(MyBinaryTree.orders.AFT_ORDER);
-        */
     }
 }
